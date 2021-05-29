@@ -14,3 +14,94 @@ a {
 * {
   box-sizing: border-box;
 }
+.background-green {
+  background: #45cbc1 !important;
+  border: none !important;
+}
+.backgound-grey {
+  background: #f2f2f2;
+}
+.background-grey-light {
+  background: #f7f7f7;
+}
+.landing-image-container {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('/sky.jpg');
+}
+.center-image-container {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('/sky.jpg');
+}
+.center-image-text {
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 2.5vw;
+}
+.landing-text {
+  font-size: 3.5vw;
+  font-weight: 650;
+  line-height: 3.6vw;
+}
+.what-happen-text {
+  font-size: 1.5rem;
+  font-weight: 650;
+  width: 20rem;
+  margin: 2rem auto;
+  padding: 0.7rem;
+  border-bottom: 0.1rem solid #d3d3d3;
+  color: #535353;
+}
+.text-card {
+  color: #888888;
+}
+.text-card p {
+  font-size: 0.85rem;
+  font-weight: 550;
+  margin-left: 0rem 0.3rem;
+}
+.text-card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card-container {
+  padding: 0rem 8%;
+}
+.card-image-container {
+  height: 15.6rem;
+  margin: 0.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.img-assessories {
+  background-image: url('/assessries.jpg');
+}
+.img-book {
+  background-image: url('/books.jpg');
+}
+.border-bottom-dotted {
+  border-bottom: 0.1rem dotted grey;
+}
+.card-footer-text {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: grey;
+}
+.card-footer-icon {
+  font-size: 0.9rem !important;
+  margin: 0.1rem;
+}
+.text-footer {
+  font-weight: 500;
+  color: grey;
+}
+.favourite-icon {
+  font-size: 1.15rem !important;
+  color: grey !important;
+}

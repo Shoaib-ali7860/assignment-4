@@ -1,65 +1,192 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
+import DateRangeIcon from '@material-ui/icons/DateRange';
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
+import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded';
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div >
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+       <div className="backgound-grey ">
+             <section className="landing-image-container   d-flex">
+                   <div className=" container text-center  align-self-center">
+                            <div className="row">
+                                  <div className="col-md-7  text-white mx-auto landing-text">
+                                         We are a digital creative agency. we focus on design, consulting, and technology.
+                                  </div>
+                            </div>
+                            <div className="mt-5">
+                                  <button className="btn btn-outline-light">LEARN MORE</button>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+                            </div>
+                   </div>
+             </section>
+             <section className="mt-5 container-fluid ">
+                    <div>
+                          <div className="text-center">
+                                <div className=" what-happen-text">
+                                    What is happening
+                                </div> 
+                              
+                          </div>
+                          <div className="row card-container text-card" >
+                          <div className="col-md-4 mt-3 ">
+                                       <div className="card-image-container img-assessories"></div>
+                                       <div>
+                                         <div className="ml-1 border-bottom-dotted ">
+                                           <h5>The Sky Is The Limit</h5>
+                                           <p>
+                                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                           </p>
+                                         </div>
+                                         <div className="d-flex mt-1 card-footer-text justify-content-end">
+                                                 <ChatBubbleOutlineIcon className="card-footer-icon"/> 3 | <DateRangeIcon className="card-footer-icon "/> 14 NOV.
+                                         </div>
+                                     </div>
+                                </div>
+                                <div className="col-md-4 mt-3">
+                                       <div className="card-image-container img-assessories"></div>
+                                     <div>
+                                         <div className="ml-1 border-bottom-dotted">
+                                           <h5>Another Cool Stuff</h5>
+                                           <p>
+                                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                           </p>
+                                         </div>
+                                         <div className="d-flex mt-1 card-footer-text justify-content-end">
+                                                 <ChatBubbleOutlineIcon className="card-footer-icon "/> 1 | <DateRangeIcon className="card-footer-icon "/> 13 Oct.
+                                         </div>
+                                     </div>
+                                </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+                                <div className="col-md-4 mt-3">
+                                       <div className="card-image-container img-assessories"></div>
+                                       <div>
+                                         <div className="ml-1 border-bottom-dotted">
+                                           <h5>This Is Awesome</h5>
+                                           <p>
+                                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                           </p>
+                                         </div>
+                                         <div className="d-flex mt-1 card-footer-text justify-content-end">
+                                                 <ChatBubbleOutlineIcon className="card-footer-icon "/> 1 | <DateRangeIcon className="card-footer-icon "/> 13 Oct.
+                                         </div>
+                                     </div>
+                                </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+                          </div>
+                    </div>
+             </section>
+             <section className="mt-5">
+                  <div className="center-image-container  d-flex justify-content-center ">
+                           <div className="align-self-center  text-center">
+                             <div className="row m-0 text-center ">
+                                <div className="col-7 text-white center-image-text mx-auto">
+                                    The Probability of success is difficult to estimate; but if we never search, the chance of success is zero.
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+                                </div>
+                             </div>
+                                <button className=" btn btn-outline-light mx-auto mt-4">LEARN MORE</button>
+                           </div>
+                  </div>
+             </section>
+             <section>
+                      <div className="mt-5 container-fluid">
+                         <div className="text-center">
+                                <div className=" what-happen-text">
+                                    Our Latest Work
+                                </div> 
+                              
+                          </div>
+                          <div className="row card-container ">
+                                  <div className="col-lg-4 col-md-6 mt-5">
+                                    <div className="card-image-container img-book"></div>
+                                    <div className="d-flex justify-content-center mt-3">
+                                           <p className="text-footer">APE - <FavoriteBorderRoundedIcon className="favourite-icon"/></p>
+                                    </div>
+                                  </div>
+                                  <div className="col-lg-4 col-md-6 mt-5">
+                                    <div className="card-image-container img-book"></div>
+                                    <div className="d-flex justify-content-center mt-3">
+                                           <p className="text-footer">RAIDERS - <FavoriteBorderRoundedIcon className="favourite-icon"/></p>
+                                    </div>
+                                  </div>
+                                  <div className="col-lg-4 col-md-6 mt-5">
+                                    <div className="card-image-container img-book"></div>
+                                    <div className="d-flex justify-content-center">
+                                           <p className="text-footer">VIKINGS - <FavoriteBorderRoundedIcon className="favourite-icon"/></p>
+                                    </div>
+                                  </div>
+                                  <div className="col-lg-4 col-md-6 mt-5">
+                                    <div className="card-image-container img-book"></div>
+                                    <div className="d-flex justify-content-center mt-3">
+                                           <p className="text-footer">APE - <FavoriteBorderRoundedIcon className="favourite-icon"/></p>
+                                    </div>
+                                  </div>
+                                  <div className="col-lg-4 col-md-6 mt-5">
+                                    <div className="card-image-container img-book"></div>
+                                    <div className="d-flex justify-content-center mt-3">
+                                           <p className="text-footer">RAIDERS - <FavoriteBorderRoundedIcon className="favourite-icon"/></p>
+                                    </div>
+                                  </div>
+                                  <div className="col-lg-4 col-md-6 mt-5">
+                                    <div className="card-image-container img-book"></div>
+                                    <div className="d-flex justify-content-center">
+                                           <p className="text-footer">VIKINGS - <FavoriteBorderRoundedIcon className="favourite-icon"/></p>
+                                    </div>
+                                  </div>
+                                 
+                          </div>
+                          <div className="my-5 text-center">
+                            <button className="btn btn-primary background-green my-3"> VIEW OUR PORTFOLIO</button>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+                          </div>
+                      </div>
+             </section>
+             <section className="background-grey-light  pb-5 ">
+                      <div className="mt-5 container-fluid mb-5">
+                         <div className="text-center ">
+                                <div className=" what-happen-text">
+                                    Brands & Clients
+                                </div> 
+                              
+                          </div>
+                          <div className="row card-container mt-5 ">
+                            <div className="col-lg-3 col-md-6 mt-5">
+                                   <img src="/dribble.png" width="100%" height="50px"/>
+                            </div>
+                            <div className="col-lg-3 col-md-6 mt-5">
+                                   <img src="/code-is.png" width="100%" height="50px"/>
+                            </div>
+                            <div className="col-lg-3 col-md-6 mt-5">
+                                   <img src="/vim.png" width="100%" height="50px"/>
+                            </div>
+                            <div className="col-lg-3  col-md-6 mt-5">
+                                   <img src="/vimeo.jpg" width="100%" height="50px"/>
+                            </div>
+                         </div>
+                      </div>
+             </section>
+             <section>
+             <div className="container-fluid py-4 bg-dark ">
+                         <div className="text-center  ">
+                                <div className=" what-happen-text text-white">
+                                    Our Work Process
+                                </div> 
+                               <div className="row m-0">
+                               <div className="text-left text-white col-md-7 my-4 mx-auto">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </div>
+                               </div>
+                              
+                          </div>
+                         
+                      </div>
+             </section>
+       </div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
