@@ -2,6 +2,7 @@ import Head from 'next/head'
 import DateRangeIcon from '@material-ui/icons/DateRange';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded';
+import NavbarLayout from './layout'
 export default function Home() {
   return (
     <div >
@@ -9,6 +10,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavbarLayout>
        <div className="backgound-grey ">
              <section className="landing-image-container   d-flex">
                    <div className=" container text-center  align-self-center">
@@ -155,16 +157,16 @@ export default function Home() {
                           </div>
                           <div className="row card-container mt-5 ">
                             <div className="col-lg-3 col-md-6 mt-5">
-                                   <img src="/dribble.png" width="100%" height="50px"/>
+                                   <img src="/dribble.png" width="100%" />
                             </div>
                             <div className="col-lg-3 col-md-6 mt-5">
-                                   <img src="/code-is.png" width="100%" height="50px"/>
-                            </div>
-                            <div className="col-lg-3 col-md-6 mt-5">
-                                   <img src="/vim.png" width="100%" height="50px"/>
+                                   <img src="/code-is.png" width="100%" />
                             </div>
                             <div className="col-lg-3  col-md-6 mt-5">
-                                   <img src="/vimeo.jpg" width="100%" height="50px"/>
+                                   <img src="/vimeo.jpg" width="100%" />
+                            </div>
+                            <div className="col-lg-3  col-md-6 mt-5">
+                                   <img src="/vimeo.jpg" width="100%" />
                             </div>
                          </div>
                       </div>
@@ -186,7 +188,7 @@ export default function Home() {
                       </div>
              </section>
        </div>
-
+       </NavbarLayout>
     </div>
   )
 }

@@ -105,3 +105,18 @@ a {
   font-size: 1.15rem !important;
   color: grey !important;
 }
+@media screen and (max-width: 767px) {
+  .landing-text {
+    font-size: 2rem;
+    line-height: 2.1rem;
+  }
+  .center-image-text {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .what-happen-text {
+    font-size: 1.3rem;
+    font-weight: 650;
+    width: 15rem;
+  }
+}
